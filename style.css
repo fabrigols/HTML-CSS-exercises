@@ -1,0 +1,346 @@
+body {
+    top: 0px;
+    left: 0px;
+    width: 99vw;
+    height: 99%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0;
+}
+
+/* Início do header */
+header {
+    margin: 0;
+    padding: 0 5%;
+    width: 99, 9vw;
+    height: auto;
+    background: #C4170C 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+#container {
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.headerEsquerdo{
+    width: 33%;
+    height: 4vh;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.menu {
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 33%;
+    text-align: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.headerDireito{
+    width: 33%;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: right;
+    margin: 0 auto;
+    height: 4vh;
+}
+
+#fieldset{
+    display: flex;
+    height: 2vh;
+    background-color: #8B0000;
+    border: 1px solid #707070;
+    border-radius: 6px;
+}
+
+#fieldset input{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    background-color: transparent;
+    border: transparent;
+    height: 2vh;
+    padding-left: 0;
+    margin: 0 10%;
+}
+
+::placeholder{
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Segoe UI';
+    font-size: larger;
+    color:#FFFFFF;
+    background-color: #8B0000;
+    padding: 0;
+    border: transparent;
+}
+
+#fieldset button{
+    width: 2vw;
+    height: 4vh;
+    margin: -2% -110%;
+    background: url(arquivos/iconfinder_search_126577.svg) no-repeat;
+    border: transparent;   
+    transform: scale(0.8); 
+}
+/* Fim do header */
+
+/* Início do principal */
+.principal {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #FFFFFF;
+    padding: 0px;
+    column-gap: 3%;
+    font-family: 'Segoe UI';
+    width: 90%;
+    margin: 0 5%;
+    font-weight: 600;
+}
+
+.titulo {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-family: 'Segoe UI';
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 1% 0;
+}
+
+.manchete1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    color: #8B0000;
+    padding-top: 50%;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.manchete1 p {
+    font-size: 18px;
+}
+
+.manchete2 img {
+    border: 1px solid #707070;
+    border-radius: 6px;
+    margin: 0 0 0 0%;
+    width: 100%;
+    height: 80%;
+}
+
+.manchete2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 0;
+    margin-bottom: 5%;
+    font-size: 18px;
+    text-align: left;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.manchete3 img {
+    border: 1px solid #707070;
+    border-radius: 6px;
+    margin: 1% 0 0 0;
+    width: 100%;
+    height: 80%;
+}
+
+.manchete3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: left;
+}
+
+/* Fim do principal */
+
+/* Início do secundário */
+.secundário {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #FFFFFF;
+    padding: 0px;
+    font-family: 'Segoe UI';
+    width: 90%;
+    font-weight: 600;
+}
+
+.economia1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #FFFFFF;
+    column-gap: 0px;
+    row-gap: 0px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    width: 90%;
+    margin: 5% 5% 0 5%;
+    padding: 5% 0;
+    border-bottom: 1px solid #707070;
+}
+
+.economia2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #FFFFFF;
+    column-gap: 0px;
+    row-gap: 0px;
+    font-family: 'Segoe UI';
+    width: 90%;
+    margin: 0 5% 0 5%;
+    font-weight: 600;
+    padding: 5% 0;
+    border-bottom: 1px solid #707070;
+    border-top: 1px solid #707070;
+}
+
+.economia3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #FFFFFF;
+    column-gap: 0px;
+    row-gap: 0px;
+    font-family: 'Segoe UI';
+    width: 90%;
+    margin: 0% 5%;
+    font-weight: 600;
+    padding: 5% 0;
+    border-bottom: 2px solid #707070;
+    border-top: 1px solid #707070;
+}
+
+.noticia h3 {
+    font-family: 'Segoe UI';
+    letter-spacing: 0px;
+    color: #000000;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 5%;
+}
+
+.texto1 {
+    font-family: 'Segoe UI';
+    letter-spacing: 0px;
+    color: #C4170C;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 5%;
+    font-weight: 700;
+}
+
+.texto2 {
+    font-family: 'Segoe UI';
+    letter-spacing: 0px;
+    color: #000000;
+    text-align: left;
+    font-size: 23px;
+    padding-left: 5%;
+}
+
+span {
+    font-family: 'Segoe UI';
+    letter-spacing: 0px;
+    color: #746565;
+    text-align: left;
+    font-size: 23px;
+    padding-left: 5%;
+}
+
+.vejamais {
+    font-family: 'Segoe UI';
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #C4170C;
+    border: 1px solid #707070;
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 5% 40%;
+    padding: 1% 0;
+    width: 20%;
+    height: 40%;
+}
+/* Fim do secundário */
+
+/* Início do footer */
+footer {
+    background-color: #C4170C;
+    color: #FFFFFF;
+    font-family: 'Segoe UI';
+    width: 100%;
+}
+
+.containerFooter{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:center;
+}
+
+.primeiraLinha {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    column-gap: 3%;
+    font-size: 23px;
+    margin: 1% 5%;
+    width: 90%;
+    height: auto;
+}
+
+.logoFooter img{
+    transform: scale(0.8);
+}
+
+.containerFooter2{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:center;
+}
+
+.segundaLinha {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 19px;
+    width: 90%;
+    margin: 0 5%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.5%;
+}
+/* Fim do footer */
